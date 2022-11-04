@@ -11,10 +11,17 @@
 
 ## ☑️ Objectives
 At the end of this session, you will be able to:
+<<<<<<< HEAD
 - [ ] Have the basic tools for the development of ML applications installed: Command Line Tools, Python3.x, Conda, VS Code, Jupyter Notebook.
 - [ ] Understand the benefits of using the above-mentioned tools.
 - [ ] Manage environments with `conda` in terminal. 
 - [ ] Install packages with `conda` or `pip3` in terminal.
+=======
+- [X] Have the basic tools for the development of ML applications installed: Command Line Tools, Python3.x, Conda, VS Code, Jupyter Notebook.
+- [X] Understand the benefits of using the above-mentioned tools.
+- [X] Manage environments with `conda` in terminal. 
+- [X] Install packages with `conda` or `pip3` in terminal.
+>>>>>>> a913fdc (initial commit for new repository with public visibility)
 - [ ] Create a GitHub repository for a team project.
 - [ ] Create branches, add work to repo, merge branches.
 - [ ] Familiarize yourself with CLI tools.
