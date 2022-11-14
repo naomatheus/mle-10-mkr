@@ -269,6 +269,8 @@ Build a workflow consisted of two tasks and run it daily.
 1. Modify the schedule interval to 5 minutes. You may need to pause and unpause the dag to see changes. 
 
 1. Discuss what circumstances you would use Catchup or Backfill in Airflow (ref: [Re-run DAG](https://airflow.apache.org/docs/apache-airflow/stable/dag-run.html#re-run-dag)).
+Discussion:
+- 
 
 1. When you are done, pause the dag, and shutdown the webserver.
-
+Catchup seems like a very cool feature. From what I've read, CatchUp allows a workflow to be paused for a specific amount of time, and then the workflow will automatically be scheduled to catch up to its current or most recent interval by processing jobs/datasets in sequential order until the "catchup" is complete. Especially if I am running workflows on my local machine this would be a very useful feature.
