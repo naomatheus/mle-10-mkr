@@ -26,9 +26,13 @@ The requirements for this week are:
 - `pandas`
 - `matplotlib`
 - `seaborn`
-- [`pantdas_profiling`](https://github.com/ydataai/pandas-profiling)
+- [`pandas_profiling`](https://github.com/ydataai/pandas-profiling)
 - `sklearn`
 - [`shap`](https://shap.readthedocs.io/en/latest/index.html) 
 - [`tpot`](http://epistasislab.github.io/tpot/)
 - `streamlit` (will be used for optional task)
 - `plotly` (will be used for optional task)
+
+## Takeaways
+- Exploratory data analysis
+- Model evaluation
