@@ -130,3 +130,6 @@ dmypy.json
 
 # secrets
 reddit_secrets.py
+
+# ds store
+.DS_Store
