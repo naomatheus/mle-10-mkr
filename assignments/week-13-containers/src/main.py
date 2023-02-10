@@ -14,6 +14,7 @@ class StockOut(StockIn):
 
 @app.get("/ping")
 def ping():
+
     return {'ping':'pong'}
 
 @app.post("/predict", response_model=StockOut, status_code=200)
@@ -31,3 +32,5 @@ def get_prediction(payload: StockIn):
         "days": days,
         "forecast": convert(prediction_list)}
     return response_object
+
+

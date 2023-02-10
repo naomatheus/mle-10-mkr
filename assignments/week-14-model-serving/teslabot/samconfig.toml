@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "mle-10-wk14-teslabot"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-x53mm6td7vcw"
+s3_prefix = "mle-10-wk14-teslabot"
+region = "us-east-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["SentimentFunction=892307477546.dkr.ecr.us-east-2.amazonaws.com/mle10wk14teslabotc136a9ef/sentimentfunction35d37012repo"]

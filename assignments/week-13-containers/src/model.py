@@ -9,6 +9,7 @@ import pandas as pd
 from prophet import Prophet
 import yfinance as yf
 
+
 import argparse
 
 BASE_DIR = Path(__file__).resolve(strict=True).parent
